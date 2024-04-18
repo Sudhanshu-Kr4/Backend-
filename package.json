@@ -1,0 +1,11 @@
+{
+  "name": "backend7",
+  "version": "1.0.0",
+  "description": "set up a professional project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sudhanshu kumar",
+  "license": "ISC"
+}
