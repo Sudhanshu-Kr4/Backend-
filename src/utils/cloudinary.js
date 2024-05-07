@@ -8,6 +8,8 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
+console.log("cloudinary is running");
+
 
 // a method with parameter is path of local file, after successfully upload we unlink that local file
 

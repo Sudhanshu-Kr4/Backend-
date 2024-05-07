@@ -1,5 +1,8 @@
 // API error handler (nodejs Api error)
 // In this class constructor are available but we generate custom constructor to send error
+
+console.log("ApiError is running");
+
 class ApiError extends Error {
   constructor(
     statusCode,

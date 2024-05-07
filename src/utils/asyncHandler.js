@@ -5,7 +5,7 @@ const asyncHandler = (requestHandler) => {
     Promise.resolve(requestHandler(req,res,next)).catch((err) => next(err))
   }
 }
-
+console.log("asynchandler is running");
 export {asyncHandler}
 
 /*
